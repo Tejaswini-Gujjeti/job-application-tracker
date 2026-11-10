@@ -111,12 +111,12 @@ function App() {
       </p>
     </div>
 
-    <div className="hero-illustration">
-      <img
-        src="/illustrations/career-development.svg"
-        alt="Career development"
-      />
-    </div>
+   <div className="hero-illustration">
+  <img
+    src={`${import.meta.env.BASE_URL}illustrations/career-development.svg`}
+    alt="Career development"
+  />
+</div>
 
   </section>
 
